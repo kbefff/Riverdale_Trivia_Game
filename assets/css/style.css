@@ -1,0 +1,23 @@
+
+
+body{
+    background-image: url("../images/riverdale.jpg");
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one 🙂       */
+    display: flex;
+    align-items: center;
+}
+
+#wrapper{
+    padding: 20px;
+    background-color: black;
+    /* opacity: .8; */
+    border-radius: .5em;
+    margin: auto;
+    width: 50%;
+    color: white;
+
+} 
+
+#titleBlock, #timerBlock, #questionBlock, #answerBlock{
+}
